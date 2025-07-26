@@ -126,7 +126,7 @@ const LoadingScreen = ({ onComplete }: { onComplete: () => void }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5 }}
         >
-          <h1 className="text-4xl font-serif text-slate-800 mb-2">Serenity Medspa</h1>
+          <h1 className="text-4xl font-serif text-slate-800 mb-2">Medspa</h1>
           <p className="text-slate-600">Preparing your wellness journey...</p>
         </motion.div>
 
@@ -174,7 +174,7 @@ export default function MedspaLanding() {
                 <div className="w-10 h-10 bg-rose-gold rounded-full flex items-center justify-center">
                   <Sparkles className="h-6 w-6 text-white" />
                 </div>
-                <span className="text-2xl font-serif text-slate-800">Serenity Medspa</span>
+                <span className="text-2xl font-serif text-slate-800">Medspa</span>
               </motion.div>
 
               {/* Desktop Navigation */}
@@ -531,7 +531,7 @@ export default function MedspaLanding() {
                     transition={{ duration: 0.6, delay: 0.3 }}
                     viewport={{ once: true }}
                   >
-                    Founded in 2018, Serenity Medspa combines cutting-edge medical aesthetics with a spa-like
+                    Founded in 2018, Medspa combines cutting-edge medical aesthetics with a spa-like
                     atmosphere. Our board-certified practitioners and licensed aestheticians are dedicated to helping
                     you achieve your wellness and beauty goals safely and effectively.
                   </motion.p>
@@ -835,7 +835,7 @@ export default function MedspaLanding() {
                   <div className="w-10 h-10 bg-rose-gold rounded-full flex items-center justify-center">
                     <Sparkles className="h-6 w-6 text-white" />
                   </div>
-                  <span className="text-2xl font-serif">Serenity Medspa</span>
+                  <span className="text-2xl font-serif">Medspa</span>
                 </div>
                 <p className="text-slate-300 leading-relaxed">
                   Your premier destination for luxury medical spa treatments and wellness services.
@@ -876,7 +876,7 @@ export default function MedspaLanding() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              <p>&copy; 2024 Serenity Medspa. All rights reserved.</p>
+              <p>&copy; 2024 Medspa. All rights reserved.</p>
             </motion.div>
           </div>
         </motion.footer>
